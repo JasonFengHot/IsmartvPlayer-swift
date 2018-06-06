@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b01b364a-7848-4594-866d-6babd4b5d6c2" name="Default" comment="" />
+    <list default="true" id="b01b364a-7848-4594-866d-6babd4b5d6c2" name="Default" comment="添加网络请求">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +18,41 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="433">
+              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Foundation.NSURLSession.swift" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation.NSURLSession/Foundation.NSURLSession.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="178" column="70" selection-start-line="178" selection-start-column="75" selection-end-line="178" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Foundation.swift" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation/Foundation.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="946" column="26" selection-start-line="946" selection-start-column="18" selection-end-line="946" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>error</find>
+      <find>datatask</find>
+      <find>timeout</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,9 +71,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="23" />
-    <option name="width" value="1466" />
+    <option name="x" value="69" />
+    <option name="y" value="238" />
+    <option name="width" value="1873" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -73,6 +100,12 @@
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="IsmartvPlayer-swift" type="1d218c8b:XcodeProjectNode" />
+              <item name="IsmartvPlayer-swift" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="IsmartvPlayer-swift" type="1d218c8b:XcodeProjectNode" />
               <item name="IsmartvPlayer-swiftTests" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
@@ -84,13 +117,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Applications/AppCode.app/Contents/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation.NSURLSession/Foundation.NSURLSession.swift" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,11 +160,21 @@
       <workItem from="1528264154692" duration="282000" />
       <workItem from="1528264464527" duration="22000" />
       <workItem from="1528273709308" duration="57000" />
+      <workItem from="1528273772191" duration="3574000" />
+      <workItem from="1528278659986" duration="4450000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1528273820193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528273820193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="789000" />
+    <option name="totallyTimeSpent" value="8813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -141,19 +186,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="23" width="1466" height="1057" extended-state="0" />
+    <frame x="69" y="238" width="1873" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17398374" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30659342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37252748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21648352" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -169,7 +216,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="添加网络请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加网络请求" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation.NSURLSession/Foundation.NSURLSession.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5434">
+          <caret line="286" column="42" selection-start-line="286" selection-start-column="35" selection-end-line="286" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation/Foundation.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152285">
+          <caret line="8015" lean-forward="true" selection-start-line="8015" selection-end-line="8015" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -184,10 +273,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation.NSURLSession/Foundation.NSURLSession.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="178" column="70" selection-start-line="178" selection-start-column="75" selection-end-line="178" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9C40b/4.0.3/arm64/iphoneos11.2/Foundation/Foundation.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="946" column="26" selection-start-line="946" selection-start-column="18" selection-end-line="946" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IsmartvPlayer-swift/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="433">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
