@@ -17,11 +17,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-//        accountActive()
-//        makeGetCall()
+        //        accountActive()
+        //        makeGetCall()
 
         trustGetLicence()
-    
+        saveLicenceFile(data: "hello")
+
     }
 
 
@@ -72,8 +73,8 @@ class ViewController: UIViewController {
         let urlRequest = URLRequest(url: url)
 
         // set up the session
-//        let config = URLSessionConfiguration.default
-//        let session = URLSession(configuration: config)
+        //        let config = URLSessionConfiguration.default
+        //        let session = URLSession(configuration: config)
 
         let session = URLSession.shared
 
@@ -120,8 +121,6 @@ class ViewController: UIViewController {
 
 
     func trustGetLicence() -> Void {
-        print(UIDevice.current.identifierForVendor!.uuidString)
-        
         let sn: String = UIDevice.current.identifierForVendor!.uuidString.md5()
         let fingerprint: String = sn.md5()
 
@@ -161,12 +160,8 @@ class ViewController: UIViewController {
 
             do {
 
-                if let r = response {
-                    print("response: \(r)")
-                }
-
-
                 if let result = data {
+
                     print("result is: \(String(data: result, encoding: .utf8))")
                 }
 
@@ -244,4 +239,32 @@ class ViewController: UIViewController {
         }.joined(separator: "&")
     }
 
+
+    func saveLicenceFile(data: String) -> Void {
+        let fileManager = FileManager.default
+
+        let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask)
+        let path = documentDirectory[0]
+        path.appendingPathComponent("hello.txt")
+
+        do {
+            try fileManager.createFile(atPath: path.path, contents: "1111".data(using: .utf8))
+        } catch {
+            print(error)
+        }
+
+        print("path: \(documentDirectory)")
+
+        do {
+            try data.write(to: path, atomically: true, encoding: .utf8)
+        } catch {
+            print(error)
+        }
+    }
 }
+
+
+
+
+
+

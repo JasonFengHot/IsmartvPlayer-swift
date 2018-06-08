@@ -1,0 +1,6 @@
+framework module Pods_IsmartvPlayer_swiftTests {
+  umbrella header "Pods-IsmartvPlayer-swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

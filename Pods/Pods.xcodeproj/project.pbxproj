@@ -1,0 +1,1146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072F80D38E65B43046DD287DA6AE25EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		106526403D7367B6A4F94EBE32E4E4AF /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020E42C8483C99F8FD7F41D6ED34D40 /* BlockModeOptions.swift */; };
+		15E7B0554118825201203078177E609F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CFCCCE84FD30436877F59411D68DA9 /* Utils.swift */; };
+		1811F4666833B95F3A3A7A41553FE860 /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F734FC105583DE2FBA9FD469EA6E53 /* DigestType.swift */; };
+		18954FAFCF37859CB1429C94A1F7F910 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A39B3C0BCDCF70319C1CADACECE24 /* Updatable.swift */; };
+		1B9D7412E49CFDD1CEEB50C00D23F32E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004B39A45A76D44DF4A3719DBAA5B2E /* Array+Extension.swift */; };
+		1E99C0DC016663DE25D5BF860E665892 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7401ECFD930087D7F39D497E911D378 /* Data+Extension.swift */; };
+		20B42EFF78D49D55CE67458F852F3067 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F1C6A658B1306F3DD1583C693DFB7 /* ChaCha20+Foundation.swift */; };
+		2EC465B50B8D924E3E7875A939816EF8 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD36649CEF79E776BE6C42C4D4FFF0E /* HMAC+Foundation.swift */; };
+		312C502499F7963B80CB44834854D8AF /* Pods-IsmartvPlayer-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 891D02603CFFC3CB2DF20A28C4A898C9 /* Pods-IsmartvPlayer-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AB4C5DF3F3CB2D841BC7531D8648C2 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8030396BA103AB7092AC6CD83588E /* CSArrayType+Extensions.swift */; };
+		39E845C25F08A238FFA942330A6F3B21 /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47886A948E2CEB7366370B85FD313B8 /* RandomAccessBlockModeWorker.swift */; };
+		3C072678894A386F5608B869DA6305AA /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84515A81C833165500348126DE2A6942 /* Rabbit.swift */; };
+		3D12487E9EB47DC1D18C93780CCDE557 /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AAA336943AEBDA2BD10612B8DFEFFE /* Rabbit+Foundation.swift */; };
+		40C082B18076A24375622A1957448A87 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60AE4E36280EB8C777BA33E447049B /* AES.swift */; };
+		42E85A8F7D9D1D1C401557423982DDEC /* Pods-IsmartvPlayer-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07A1620A6D0E679471F8A29174A63FE /* Pods-IsmartvPlayer-swift-dummy.m */; };
+		43522EAFE5A8F10A1BAF69FB82EAA63D /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17F52E6A54308751FDC439CB9FF595 /* NoPadding.swift */; };
+		45F170A736E1CA34D5066A84A90C30B2 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA02ADDD3AE60A07581AF6C23C57C1 /* BlockCipher.swift */; };
+		4C76DCE3AE5796C3B625CF264E59E28F /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35813F892718354D75B6FD88D049E13 /* PCBC.swift */; };
+		4ED037577FE82DA38F06553ABE799D90 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74266D83533829A3D4AFB2C642CE467B /* UInt32+Extension.swift */; };
+		4F656AAED181E78C287FA5DCA68AFA9B /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB6701250EFAA12659A68C3526390E0 /* Blowfish+Foundation.swift */; };
+		56FCD8E2F7FAB9F83B7A8417208EECD8 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C74C1969F07A68E136CB0D73EA22D /* CFB.swift */; };
+		5D6821DE0DC076C4863C4B1FCA7C4FDF /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADFB7F3EF39C54AF6CCBD2824A337A /* OFB.swift */; };
+		5E4965103C3132BAC775E322EBA555FD /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339619FC8ACB1AF034401FF7880597 /* Cryptors.swift */; };
+		5E7CF0574ED8D4D3EA07898BC05B9B44 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18E9456898778AB5B1F8A6AC9E8FA3 /* Padding.swift */; };
+		6073C82F34939E719D20C6867E4E8C05 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B48C73BC5EC4C4BD434A81F4365217 /* PKCS5.swift */; };
+		64EDCD9A4ADC3B7B9E68FB8945A5BB40 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD875EC99134EC318AB0797BB9D25592 /* SecureBytes.swift */; };
+		656A6289582E554537ED419A60BFF4A9 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EB019328FA1EE2EDFC6DED5F29127 /* Bit.swift */; };
+		67DBAE4935E0B686A566476B95858F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		690A0944290908B2FBBCEC3F152F1908 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3818F541D7E2AF74FB98D6F879D7FB /* UInt16+Extension.swift */; };
+		6E1E02545F56FF728C4673CAB345E010 /* Pods-IsmartvPlayer-swiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA852C5FD7144DAD71071232285922BE /* Pods-IsmartvPlayer-swiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71648F328FEBCE785B620D5BEB551D62 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5964E02C249C20576FB2937D7FADF1 /* BlockMode.swift */; };
+		7696FC3BF8CDF62D426C5417190066E7 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892176018D062B80A66778F71DC8D6B /* CryptoSwift-dummy.m */; };
+		7A16649DC486765D9FEA898424704F6B /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE8F0B53146E5D03AC4F654501916 /* Generics.swift */; };
+		7AD65022E43713569709834981BFDA7A /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB49B9AAA5F1E200C32B0906DFCA7C0 /* Checksum.swift */; };
+		7E7A22DFC5711E73CC978DE27312BDF6 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C6F639996A90ECAD26F3842E876C3 /* Int+Extension.swift */; };
+		860FD28776117C83F89951DC3F67D90B /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB8FFA973A3F6E65C8C736969990EE /* AES+Foundation.swift */; };
+		86916D6AE2D3827309C0A577FB7165E1 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11286F67F6A7E5EE75331B64466F424F /* PKCS7Padding.swift */; };
+		8E352C414DA910D82D5F76C40AB39B9B /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099F300D420CB342B071B11EFE6484B /* BlockModeWorker.swift */; };
+		93AE10259A2E5D0D3FC59DE0A6607249 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDBD9C2B4D04F56985A12BAA34834B /* PKCS7.swift */; };
+		93BA58EEBAF3599949BBE0EEF4A965CA /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B8A9BE9F76A956E0570B14D393561 /* HMAC.swift */; };
+		9CE20232510EE59FE400A71DF8C3B30F /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE7CCE7C627DFA964F5EBFCC2E0BC4 /* ZeroPadding.swift */; };
+		9E3271279026C3CCC5DC0EBB430CA6D7 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BD4C9E85C7A28932A0A7C7F63E5431 /* Authenticator.swift */; };
+		A1542AD9696A01B23DCB21A973F0DA73 /* Pods-IsmartvPlayer-swiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916C304BAC5B18B5D6A4C6217462E017 /* Pods-IsmartvPlayer-swiftUITests-dummy.m */; };
+		A5BE6D486BFD2909DE6EB3C6ACDA3B54 /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF0144DAEBE5E39A3DB94CBB432B75 /* CTR.swift */; };
+		A645E29D79C6313C84D474597DB09634 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 652B38AFEDC540741B2D1D1BCCD1A671 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A66AD809C5348582D90635112EF6A063 /* Pods-IsmartvPlayer-swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A397020D442FD6EF6F83E54EABCDA1 /* Pods-IsmartvPlayer-swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7679067C5707DAD74218254B1EA7C0D /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077193E2774E69BD7E433B4EC38503D3 /* UInt64+Extension.swift */; };
+		AC2CFD20E2921CDEC49CDCE84D5CF831 /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00CB69EBEB58321B3FDB7AC5CBEBF50 /* Blowfish.swift */; };
+		AC9B8C11009653AE3C6A04661B83FAF6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5EBDDAB166AC1A4452F4C6377E3A4 /* String+Extension.swift */; };
+		AE09CD7C1B9FA65F898F6594BD58D631 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493429ADC58C3DDB8DD3207A24B5829 /* PBKDF1.swift */; };
+		B163356174AC3904DC6A9E235FFF65AB /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF042F0DCB9009C34BE77586ED91445 /* SHA1.swift */; };
+		B4EBC4EA2E09E2DF64AE0650B884AF86 /* Pods-IsmartvPlayer-swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0608C15E292EE91384E27783439FE8 /* Pods-IsmartvPlayer-swiftTests-dummy.m */; };
+		B7CE934EF9C5D1D11609469DB3176BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C2B49B97085F299A8454F0D1768EADC2 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5241A85EF0689249122D58B12158D6 /* SHA2.swift */; };
+		C7D9C8F3927BC62F5DC058A1B5B92E75 /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514255AE071667670C5DB80ED3DC030 /* CSArrayType+Foundation.swift */; };
+		CDE744542C0519D2197E5BE2EC02B96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D129F339808A6D4E20D83BB066141FAF /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CAAA849F22BE250FB5B005632DA420 /* Collection+Extension.swift */; };
+		D457454E29FB723CD2743D081A4FB68E /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBCC4B1237BE62485DBB7D15254FE97 /* Cipher.swift */; };
+		D8AD5D0AD8DAC7505D464ADA0565809B /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38E9E757F2C1825B4EFC28202EAF50 /* ChaCha20.swift */; };
+		DBF91A96B8205236B3CD925D4E876BC9 /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC582EDEFA53D225E83DCB01949B014 /* SHA3.swift */; };
+		DF1740958185D07FA6DE790EBDD52DC9 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CF75CD89668098013221990FCA95E /* MD5.swift */; };
+		E194E816DF8DA6B20CC5961973FBA3E5 /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA028689C8364D68AD70CAF0C2D9E0B0 /* RandomAccessCryptor.swift */; };
+		E2EB7183921492B9ADA301B037A54A78 /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A063028D8CDDB163B2AFE5CE90516 /* RandomBytesSequence.swift */; };
+		E5DD6F5F4D08EE86AA06CF05DCC01FF1 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30689D1C2A6D02E1CBDE08787EBFEC /* String+FoundationExtension.swift */; };
+		E6AFA60AD32A7C7A74B2317028B45B40 /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0173FDF94E13F6CD07F056FBAC3AB5 /* Utils+Foundation.swift */; };
+		EE6B5702C24E996BC8C2B4A1E709351D /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3FB25F45EE04077420874BD247DED /* UInt8+Extension.swift */; };
+		EF7A6708E7738B1AABB8BA481F1F9121 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396249721583F8C9CAD524CA722B745 /* PBKDF2.swift */; };
+		EFDE453F9C16CF16D1C2D63F3A76A0A2 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48FDC56414E25865B31EAC0EC13FC3 /* CBC.swift */; };
+		F0FB1C7C6C4F4028236FDF02BB7DBE56 /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BA3053C24D54F3B8FD96D30373DBDC /* ECB.swift */; };
+		F306754C43971017E3B6200029508299 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E121478EE435108204B5DC6E3271DB78 /* Operators.swift */; };
+		F348833F10BE02A20050E57943B1B2AD /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC707DFC71407725047FABC17E23706 /* Poly1305.swift */; };
+		F6AF33C4FCD9F1D4F979FFC935E56921 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3A8C9A13144E7EB4562B159F3EC68 /* BatchedCollection.swift */; };
+		F6BC4650B1D355BA709443042ECEDE1C /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA981C732332FEFD2CA67A01023D4 /* Digest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F97600D0AA8A6796DDABCA54B97DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DE30AFEFDA5C1B8F61E255A03FD579;
+			remoteInfo = "Pods-IsmartvPlayer-swift";
+		};
+		C52874FA8BEBF3850AFB044BF59361F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB1C1403B2419F911818DA8413FDA07;
+			remoteInfo = CryptoSwift;
+		};
+		ED160A4D2057DBD906B949672154E44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DE30AFEFDA5C1B8F61E255A03FD579;
+			remoteInfo = "Pods-IsmartvPlayer-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0066B2907D5286B661390B33A94D8479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077193E2774E69BD7E433B4EC38503D3 /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
+		0DFA02ADDD3AE60A07581AF6C23C57C1 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
+		100645CF96DC4059A2E6036246647CE1 /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11286F67F6A7E5EE75331B64466F424F /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
+		11B48C73BC5EC4C4BD434A81F4365217 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
+		14CB8FFA973A3F6E65C8C736969990EE /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		1AD36649CEF79E776BE6C42C4D4FFF0E /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		1B0173FDF94E13F6CD07F056FBAC3AB5 /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+		21CC91E33ADF33D1A0C55A9FFB3D9C7E /* Pods_IsmartvPlayer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IsmartvPlayer_swift.framework; path = "Pods-IsmartvPlayer-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CAAA849F22BE250FB5B005632DA420 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
+		23A397020D442FD6EF6F83E54EABCDA1 /* Pods-IsmartvPlayer-swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IsmartvPlayer-swiftTests-umbrella.h"; sourceTree = "<group>"; };
+		23DF7EA4DF3B97CA9A05B31CB4F529DD /* Pods-IsmartvPlayer-swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IsmartvPlayer-swiftTests.modulemap"; sourceTree = "<group>"; };
+		2514255AE071667670C5DB80ED3DC030 /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
+		26CBD265A406D2DDC2B246D1DCBCE3F8 /* Pods-IsmartvPlayer-swiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swiftTests-resources.sh"; sourceTree = "<group>"; };
+		270F8DFE17FD576D8F430CB113410717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5241A85EF0689249122D58B12158D6 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		2FF042F0DCB9009C34BE77586ED91445 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
+		31DE7CCE7C627DFA964F5EBFCC2E0BC4 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
+		323A39B3C0BCDCF70319C1CADACECE24 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
+		36AAA336943AEBDA2BD10612B8DFEFFE /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		378EB019328FA1EE2EDFC6DED5F29127 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
+		383DBD3E886A17926FAE06783C5096BD /* Pods-IsmartvPlayer-swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IsmartvPlayer-swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EB49B9AAA5F1E200C32B0906DFCA7C0 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
+		40642700584A629264830D2D5DC0033F /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
+		4099F300D420CB342B071B11EFE6484B /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
+		4892176018D062B80A66778F71DC8D6B /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
+		555B8A9BE9F76A956E0570B14D393561 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AC707DFC71407725047FABC17E23706 /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
+		652B38AFEDC540741B2D1D1BCCD1A671 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		6ADABE4E5ABB0AC61CE71191FC59BF45 /* Pods-IsmartvPlayer-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swift-frameworks.sh"; sourceTree = "<group>"; };
+		707E21187AD684F74C663A5E3D395F4B /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72339619FC8ACB1AF034401FF7880597 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
+		74266D83533829A3D4AFB2C642CE467B /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
+		75F9A8B711991B3D326C422892D55A3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787F1C6A658B1306F3DD1583C693DFB7 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		79CDBD9C2B4D04F56985A12BAA34834B /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
+		7C60AE4E36280EB8C777BA33E447049B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		7F7C74C1969F07A68E136CB0D73EA22D /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
+		8020E42C8483C99F8FD7F41D6ED34D40 /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		823696EB855DEB896CB26C08D1E684B0 /* Pods-IsmartvPlayer-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IsmartvPlayer-swift.modulemap"; sourceTree = "<group>"; };
+		8396249721583F8C9CAD524CA722B745 /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS/PBKDF2.swift; sourceTree = "<group>"; };
+		83B780FDEDE269F2E122C6B547D2C968 /* Pods-IsmartvPlayer-swiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IsmartvPlayer-swiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84515A81C833165500348126DE2A6942 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
+		85CFCCCE84FD30436877F59411D68DA9 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
+		891D02603CFFC3CB2DF20A28C4A898C9 /* Pods-IsmartvPlayer-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IsmartvPlayer-swift-umbrella.h"; sourceTree = "<group>"; };
+		8C2D0AF2419A30C0D87C4AA62C6D17A2 /* Pods-IsmartvPlayer-swiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		8CC3FB25F45EE04077420874BD247DED /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
+		8D18E9456898778AB5B1F8A6AC9E8FA3 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		8DC582EDEFA53D225E83DCB01949B014 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/CryptoSwift/SHA3.swift; sourceTree = "<group>"; };
+		8FBCC4B1237BE62485DBB7D15254FE97 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		8FCBC54A615BC52013B9F5AD14A5459D /* Pods-IsmartvPlayer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		900E6558FE6E49506C508F80F0660EE9 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
+		916C304BAC5B18B5D6A4C6217462E017 /* Pods-IsmartvPlayer-swiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IsmartvPlayer-swiftUITests-dummy.m"; sourceTree = "<group>"; };
+		91981023560100FBDD47E79185745948 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		998BB22BE19766789D190E239EA4671C /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
+		99B4E7F2B9D3808B0F00017BCBDA1F23 /* Pods-IsmartvPlayer-swiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9B3818F541D7E2AF74FB98D6F879D7FB /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
+		9BC8030396BA103AB7092AC6CD83588E /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Sources/CryptoSwift/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		A1B3A8C9A13144E7EB4562B159F3EC68 /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Sources/CryptoSwift/BatchedCollection.swift; sourceTree = "<group>"; };
+		A2BD4C9E85C7A28932A0A7C7F63E5431 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
+		A6A6ACE23A52E1FDBA91DC8B3C1C2F03 /* Pods-IsmartvPlayer-swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IsmartvPlayer-swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA3DA981C732332FEFD2CA67A01023D4 /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
+		AB5964E02C249C20576FB2937D7FADF1 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		AC38E9E757F2C1825B4EFC28202EAF50 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
+		AF163CDE60D13A8E4145DEAC47253ECD /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF3A063028D8CDDB163B2AFE5CE90516 /* RandomBytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomBytesSequence.swift; path = Sources/CryptoSwift/RandomBytesSequence.swift; sourceTree = "<group>"; };
+		B0578396FAD55ECF8B1E50B70E285E95 /* Pods-IsmartvPlayer-swiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swiftUITests-resources.sh"; sourceTree = "<group>"; };
+		B1F734FC105583DE2FBA9FD469EA6E53 /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
+		B78BDBC210B85EE0DA5A756DB7AD4EBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA66229F5E316027F96075F775996FE4 /* Pods-IsmartvPlayer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IsmartvPlayer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		BACF0144DAEBE5E39A3DB94CBB432B75 /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		BAF1E35B2C689D1F4F3C7D2496E1CC3E /* Pods_IsmartvPlayer_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IsmartvPlayer_swiftUITests.framework; path = "Pods-IsmartvPlayer-swiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBADFB7F3EF39C54AF6CCBD2824A337A /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
+		BC3FE8F0B53146E5D03AC4F654501916 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		BF09E6B473E11C86E7487BC5D2F416D8 /* Pods_IsmartvPlayer_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IsmartvPlayer_swiftTests.framework; path = "Pods-IsmartvPlayer-swiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03C6F639996A90ECAD26F3842E876C3 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
+		C3C77A8ECEBDD7E39674CA957A45CDD9 /* Pods-IsmartvPlayer-swiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IsmartvPlayer-swiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC48FDC56414E25865B31EAC0EC13FC3 /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
+		CD875EC99134EC318AB0797BB9D25592 /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		D3A5D526FA07E46F14812D3C0240E5C4 /* Pods-IsmartvPlayer-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IsmartvPlayer-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D55E59830EF805160F2C194A83C742AD /* Pods-IsmartvPlayer-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IsmartvPlayer-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5C984B53550613D690C86CFFAE542B4 /* Pods-IsmartvPlayer-swiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IsmartvPlayer-swiftUITests.modulemap"; sourceTree = "<group>"; };
+		D9BF716195DB0FACD6B55C985AF4EE13 /* Pods-IsmartvPlayer-swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IsmartvPlayer-swift-resources.sh"; sourceTree = "<group>"; };
+		DA30689D1C2A6D02E1CBDE08787EBFEC /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		DA852C5FD7144DAD71071232285922BE /* Pods-IsmartvPlayer-swiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IsmartvPlayer-swiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		E00CB69EBEB58321B3FDB7AC5CBEBF50 /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
+		E07A1620A6D0E679471F8A29174A63FE /* Pods-IsmartvPlayer-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IsmartvPlayer-swift-dummy.m"; sourceTree = "<group>"; };
+		E121478EE435108204B5DC6E3271DB78 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		E34CF75CD89668098013221990FCA95E /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
+		E47886A948E2CEB7366370B85FD313B8 /* RandomAccessBlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessBlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/RandomAccessBlockModeWorker.swift; sourceTree = "<group>"; };
+		E493429ADC58C3DDB8DD3207A24B5829 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS/PBKDF1.swift; sourceTree = "<group>"; };
+		E7401ECFD930087D7F39D497E911D378 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
+		EAB6701250EFAA12659A68C3526390E0 /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
+		F004B39A45A76D44DF4A3719DBAA5B2E /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
+		F0BA3053C24D54F3B8FD96D30373DBDC /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		F0F5EBDDAB166AC1A4452F4C6377E3A4 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
+		F35813F892718354D75B6FD88D049E13 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
+		F57DCC8F204F972DFAB33F48E6B55937 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA028689C8364D68AD70CAF0C2D9E0B0 /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCryptor.swift; path = Sources/CryptoSwift/RandomAccessCryptor.swift; sourceTree = "<group>"; };
+		FE0608C15E292EE91384E27783439FE8 /* Pods-IsmartvPlayer-swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IsmartvPlayer-swiftTests-dummy.m"; sourceTree = "<group>"; };
+		FE17F52E6A54308751FDC439CB9FF595 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13569E3BB4B9B49CB24A05C58F1AEDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DBAE4935E0B686A566476B95858F67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B01B72BC5D7CC438B73495CE452A020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CE934EF9C5D1D11609469DB3176BA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06808E7550BBA13922344ED95D42FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE744542C0519D2197E5BE2EC02B96B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD440BA01AEFD34ED3B900A7B8AB836A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072F80D38E65B43046DD287DA6AE25EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1639FFDBFF804D3E90ADE30CF76A6B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57DCC8F204F972DFAB33F48E6B55937 /* CryptoSwift.framework */,
+				21CC91E33ADF33D1A0C55A9FFB3D9C7E /* Pods_IsmartvPlayer_swift.framework */,
+				BF09E6B473E11C86E7487BC5D2F416D8 /* Pods_IsmartvPlayer_swiftTests.framework */,
+				BAF1E35B2C689D1F4F3C7D2496E1CC3E /* Pods_IsmartvPlayer_swiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D6B08F13CE5CDA44CAF62BB9E3A277 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				998BB22BE19766789D190E239EA4671C /* CryptoSwift.modulemap */,
+				40642700584A629264830D2D5DC0033F /* CryptoSwift.xcconfig */,
+				4892176018D062B80A66778F71DC8D6B /* CryptoSwift-dummy.m */,
+				900E6558FE6E49506C508F80F0660EE9 /* CryptoSwift-prefix.pch */,
+				652B38AFEDC540741B2D1D1BCCD1A671 /* CryptoSwift-umbrella.h */,
+				270F8DFE17FD576D8F430CB113410717 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoSwift";
+			sourceTree = "<group>";
+		};
+		4B72307847228024D158496EF8FCCA80 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7C60AE4E36280EB8C777BA33E447049B /* AES.swift */,
+				14CB8FFA973A3F6E65C8C736969990EE /* AES+Foundation.swift */,
+				F004B39A45A76D44DF4A3719DBAA5B2E /* Array+Extension.swift */,
+				A2BD4C9E85C7A28932A0A7C7F63E5431 /* Authenticator.swift */,
+				A1B3A8C9A13144E7EB4562B159F3EC68 /* BatchedCollection.swift */,
+				378EB019328FA1EE2EDFC6DED5F29127 /* Bit.swift */,
+				0DFA02ADDD3AE60A07581AF6C23C57C1 /* BlockCipher.swift */,
+				AB5964E02C249C20576FB2937D7FADF1 /* BlockMode.swift */,
+				8020E42C8483C99F8FD7F41D6ED34D40 /* BlockModeOptions.swift */,
+				4099F300D420CB342B071B11EFE6484B /* BlockModeWorker.swift */,
+				E00CB69EBEB58321B3FDB7AC5CBEBF50 /* Blowfish.swift */,
+				EAB6701250EFAA12659A68C3526390E0 /* Blowfish+Foundation.swift */,
+				CC48FDC56414E25865B31EAC0EC13FC3 /* CBC.swift */,
+				7F7C74C1969F07A68E136CB0D73EA22D /* CFB.swift */,
+				AC38E9E757F2C1825B4EFC28202EAF50 /* ChaCha20.swift */,
+				787F1C6A658B1306F3DD1583C693DFB7 /* ChaCha20+Foundation.swift */,
+				3EB49B9AAA5F1E200C32B0906DFCA7C0 /* Checksum.swift */,
+				8FBCC4B1237BE62485DBB7D15254FE97 /* Cipher.swift */,
+				22CAAA849F22BE250FB5B005632DA420 /* Collection+Extension.swift */,
+				72339619FC8ACB1AF034401FF7880597 /* Cryptors.swift */,
+				9BC8030396BA103AB7092AC6CD83588E /* CSArrayType+Extensions.swift */,
+				2514255AE071667670C5DB80ED3DC030 /* CSArrayType+Foundation.swift */,
+				BACF0144DAEBE5E39A3DB94CBB432B75 /* CTR.swift */,
+				E7401ECFD930087D7F39D497E911D378 /* Data+Extension.swift */,
+				AA3DA981C732332FEFD2CA67A01023D4 /* Digest.swift */,
+				B1F734FC105583DE2FBA9FD469EA6E53 /* DigestType.swift */,
+				F0BA3053C24D54F3B8FD96D30373DBDC /* ECB.swift */,
+				BC3FE8F0B53146E5D03AC4F654501916 /* Generics.swift */,
+				555B8A9BE9F76A956E0570B14D393561 /* HMAC.swift */,
+				1AD36649CEF79E776BE6C42C4D4FFF0E /* HMAC+Foundation.swift */,
+				C03C6F639996A90ECAD26F3842E876C3 /* Int+Extension.swift */,
+				E34CF75CD89668098013221990FCA95E /* MD5.swift */,
+				FE17F52E6A54308751FDC439CB9FF595 /* NoPadding.swift */,
+				BBADFB7F3EF39C54AF6CCBD2824A337A /* OFB.swift */,
+				E121478EE435108204B5DC6E3271DB78 /* Operators.swift */,
+				8D18E9456898778AB5B1F8A6AC9E8FA3 /* Padding.swift */,
+				E493429ADC58C3DDB8DD3207A24B5829 /* PBKDF1.swift */,
+				8396249721583F8C9CAD524CA722B745 /* PBKDF2.swift */,
+				F35813F892718354D75B6FD88D049E13 /* PCBC.swift */,
+				11B48C73BC5EC4C4BD434A81F4365217 /* PKCS5.swift */,
+				79CDBD9C2B4D04F56985A12BAA34834B /* PKCS7.swift */,
+				11286F67F6A7E5EE75331B64466F424F /* PKCS7Padding.swift */,
+				5AC707DFC71407725047FABC17E23706 /* Poly1305.swift */,
+				84515A81C833165500348126DE2A6942 /* Rabbit.swift */,
+				36AAA336943AEBDA2BD10612B8DFEFFE /* Rabbit+Foundation.swift */,
+				E47886A948E2CEB7366370B85FD313B8 /* RandomAccessBlockModeWorker.swift */,
+				FA028689C8364D68AD70CAF0C2D9E0B0 /* RandomAccessCryptor.swift */,
+				AF3A063028D8CDDB163B2AFE5CE90516 /* RandomBytesSequence.swift */,
+				CD875EC99134EC318AB0797BB9D25592 /* SecureBytes.swift */,
+				2FF042F0DCB9009C34BE77586ED91445 /* SHA1.swift */,
+				2C5241A85EF0689249122D58B12158D6 /* SHA2.swift */,
+				8DC582EDEFA53D225E83DCB01949B014 /* SHA3.swift */,
+				F0F5EBDDAB166AC1A4452F4C6377E3A4 /* String+Extension.swift */,
+				DA30689D1C2A6D02E1CBDE08787EBFEC /* String+FoundationExtension.swift */,
+				9B3818F541D7E2AF74FB98D6F879D7FB /* UInt16+Extension.swift */,
+				74266D83533829A3D4AFB2C642CE467B /* UInt32+Extension.swift */,
+				077193E2774E69BD7E433B4EC38503D3 /* UInt64+Extension.swift */,
+				8CC3FB25F45EE04077420874BD247DED /* UInt8+Extension.swift */,
+				323A39B3C0BCDCF70319C1CADACECE24 /* Updatable.swift */,
+				85CFCCCE84FD30436877F59411D68DA9 /* Utils.swift */,
+				1B0173FDF94E13F6CD07F056FBAC3AB5 /* Utils+Foundation.swift */,
+				31DE7CCE7C627DFA964F5EBFCC2E0BC4 /* ZeroPadding.swift */,
+				48D6B08F13CE5CDA44CAF62BB9E3A277 /* Support Files */,
+			);
+			name = CryptoSwift;
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		638DECC0A477D796EC6FDED0852DE206 /* Pods-IsmartvPlayer-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78BDBC210B85EE0DA5A756DB7AD4EBF /* Info.plist */,
+				23DF7EA4DF3B97CA9A05B31CB4F529DD /* Pods-IsmartvPlayer-swiftTests.modulemap */,
+				383DBD3E886A17926FAE06783C5096BD /* Pods-IsmartvPlayer-swiftTests-acknowledgements.markdown */,
+				A6A6ACE23A52E1FDBA91DC8B3C1C2F03 /* Pods-IsmartvPlayer-swiftTests-acknowledgements.plist */,
+				FE0608C15E292EE91384E27783439FE8 /* Pods-IsmartvPlayer-swiftTests-dummy.m */,
+				8C2D0AF2419A30C0D87C4AA62C6D17A2 /* Pods-IsmartvPlayer-swiftTests-frameworks.sh */,
+				26CBD265A406D2DDC2B246D1DCBCE3F8 /* Pods-IsmartvPlayer-swiftTests-resources.sh */,
+				23A397020D442FD6EF6F83E54EABCDA1 /* Pods-IsmartvPlayer-swiftTests-umbrella.h */,
+				707E21187AD684F74C663A5E3D395F4B /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */,
+				AF163CDE60D13A8E4145DEAC47253ECD /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */,
+			);
+			name = "Pods-IsmartvPlayer-swiftTests";
+			path = "Target Support Files/Pods-IsmartvPlayer-swiftTests";
+			sourceTree = "<group>";
+		};
+		771E1CC69F0BFF27EF2D432D99B23B2F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C594D2355335A56097851D7D022CFF6F /* Pods-IsmartvPlayer-swift */,
+				638DECC0A477D796EC6FDED0852DE206 /* Pods-IsmartvPlayer-swiftTests */,
+				ADD0BC46F1F7C5202A21155AA3CB97C9 /* Pods-IsmartvPlayer-swiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F7BF7C3D0A8C9B2E2A861ED5EDA72961 /* Pods */,
+				1639FFDBFF804D3E90ADE30CF76A6B01 /* Products */,
+				771E1CC69F0BFF27EF2D432D99B23B2F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD0BC46F1F7C5202A21155AA3CB97C9 /* Pods-IsmartvPlayer-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0066B2907D5286B661390B33A94D8479 /* Info.plist */,
+				D5C984B53550613D690C86CFFAE542B4 /* Pods-IsmartvPlayer-swiftUITests.modulemap */,
+				C3C77A8ECEBDD7E39674CA957A45CDD9 /* Pods-IsmartvPlayer-swiftUITests-acknowledgements.markdown */,
+				83B780FDEDE269F2E122C6B547D2C968 /* Pods-IsmartvPlayer-swiftUITests-acknowledgements.plist */,
+				916C304BAC5B18B5D6A4C6217462E017 /* Pods-IsmartvPlayer-swiftUITests-dummy.m */,
+				99B4E7F2B9D3808B0F00017BCBDA1F23 /* Pods-IsmartvPlayer-swiftUITests-frameworks.sh */,
+				B0578396FAD55ECF8B1E50B70E285E95 /* Pods-IsmartvPlayer-swiftUITests-resources.sh */,
+				DA852C5FD7144DAD71071232285922BE /* Pods-IsmartvPlayer-swiftUITests-umbrella.h */,
+				91981023560100FBDD47E79185745948 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */,
+				100645CF96DC4059A2E6036246647CE1 /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */,
+			);
+			name = "Pods-IsmartvPlayer-swiftUITests";
+			path = "Target Support Files/Pods-IsmartvPlayer-swiftUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C594D2355335A56097851D7D022CFF6F /* Pods-IsmartvPlayer-swift */ = {
+			isa = PBXGroup;
+			children = (
+				75F9A8B711991B3D326C422892D55A3B /* Info.plist */,
+				823696EB855DEB896CB26C08D1E684B0 /* Pods-IsmartvPlayer-swift.modulemap */,
+				D3A5D526FA07E46F14812D3C0240E5C4 /* Pods-IsmartvPlayer-swift-acknowledgements.markdown */,
+				D55E59830EF805160F2C194A83C742AD /* Pods-IsmartvPlayer-swift-acknowledgements.plist */,
+				E07A1620A6D0E679471F8A29174A63FE /* Pods-IsmartvPlayer-swift-dummy.m */,
+				6ADABE4E5ABB0AC61CE71191FC59BF45 /* Pods-IsmartvPlayer-swift-frameworks.sh */,
+				D9BF716195DB0FACD6B55C985AF4EE13 /* Pods-IsmartvPlayer-swift-resources.sh */,
+				891D02603CFFC3CB2DF20A28C4A898C9 /* Pods-IsmartvPlayer-swift-umbrella.h */,
+				BA66229F5E316027F96075F775996FE4 /* Pods-IsmartvPlayer-swift.debug.xcconfig */,
+				8FCBC54A615BC52013B9F5AD14A5459D /* Pods-IsmartvPlayer-swift.release.xcconfig */,
+			);
+			name = "Pods-IsmartvPlayer-swift";
+			path = "Target Support Files/Pods-IsmartvPlayer-swift";
+			sourceTree = "<group>";
+		};
+		F7BF7C3D0A8C9B2E2A861ED5EDA72961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B72307847228024D158496EF8FCCA80 /* CryptoSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A14BCA60A31330EF5F63977E1A29A09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1E02545F56FF728C4673CAB345E010 /* Pods-IsmartvPlayer-swiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1943746C59AEB0A4C47EEF7E1A3EC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312C502499F7963B80CB44834854D8AF /* Pods-IsmartvPlayer-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566B45B9040250F866FD6D88178A42DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66AD809C5348582D90635112EF6A063 /* Pods-IsmartvPlayer-swiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09AEE95D06541370627F0981BE61FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A645E29D79C6313C84D474597DB09634 /* CryptoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65DE30AFEFDA5C1B8F61E255A03FD579 /* Pods-IsmartvPlayer-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F902DD0101F2A579BD85C3D7006C9EFF /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swift" */;
+			buildPhases = (
+				AF60694A69FF287AEF7121390C9CA1AE /* Sources */,
+				13569E3BB4B9B49CB24A05C58F1AEDB3 /* Frameworks */,
+				4A1943746C59AEB0A4C47EEF7E1A3EC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB445D0D6754B4BCA2D1A0218ABE3DEE /* PBXTargetDependency */,
+			);
+			name = "Pods-IsmartvPlayer-swift";
+			productName = "Pods-IsmartvPlayer-swift";
+			productReference = 21CC91E33ADF33D1A0C55A9FFB3D9C7E /* Pods_IsmartvPlayer_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BB1C1403B2419F911818DA8413FDA07 /* CryptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2D4DEFD9716C954D1E8ADC5D5601A5 /* Build configuration list for PBXNativeTarget "CryptoSwift" */;
+			buildPhases = (
+				E9F35F9269FA9C5BD3FCAEC12A11E2D4 /* Sources */,
+				D06808E7550BBA13922344ED95D42FA3 /* Frameworks */,
+				D09AEE95D06541370627F0981BE61FB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwift;
+			productName = CryptoSwift;
+			productReference = F57DCC8F204F972DFAB33F48E6B55937 /* CryptoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1CB0DAC0A2A2FC042D79A8368E4C030 /* Pods-IsmartvPlayer-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23679DCB74D022264BCA196C14D5E36 /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swiftTests" */;
+			buildPhases = (
+				800F4022021894912669F35A3A78B3BF /* Sources */,
+				6B01B72BC5D7CC438B73495CE452A020 /* Frameworks */,
+				566B45B9040250F866FD6D88178A42DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EADC7C421A745EA82EF9F492EE04E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-IsmartvPlayer-swiftTests";
+			productName = "Pods-IsmartvPlayer-swiftTests";
+			productReference = BF09E6B473E11C86E7487BC5D2F416D8 /* Pods_IsmartvPlayer_swiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD51E6684AA8AC2DF49AA3B6676A5621 /* Pods-IsmartvPlayer-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD5EA44E844DFC0BCD8CD16196B029D /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swiftUITests" */;
+			buildPhases = (
+				3B942AAFDA67EC366325D6BD447CE55D /* Sources */,
+				FD440BA01AEFD34ED3B900A7B8AB836A /* Frameworks */,
+				1A14BCA60A31330EF5F63977E1A29A09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABD73BBC1EB672ED21416BBD2B53394 /* PBXTargetDependency */,
+			);
+			name = "Pods-IsmartvPlayer-swiftUITests";
+			productName = "Pods-IsmartvPlayer-swiftUITests";
+			productReference = BAF1E35B2C689D1F4F3C7D2496E1CC3E /* Pods_IsmartvPlayer_swiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1639FFDBFF804D3E90ADE30CF76A6B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB1C1403B2419F911818DA8413FDA07 /* CryptoSwift */,
+				65DE30AFEFDA5C1B8F61E255A03FD579 /* Pods-IsmartvPlayer-swift */,
+				E1CB0DAC0A2A2FC042D79A8368E4C030 /* Pods-IsmartvPlayer-swiftTests */,
+				FD51E6684AA8AC2DF49AA3B6676A5621 /* Pods-IsmartvPlayer-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B942AAFDA67EC366325D6BD447CE55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1542AD9696A01B23DCB21A973F0DA73 /* Pods-IsmartvPlayer-swiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F4022021894912669F35A3A78B3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EBC4EA2E09E2DF64AE0650B884AF86 /* Pods-IsmartvPlayer-swiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF60694A69FF287AEF7121390C9CA1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E85A8F7D9D1D1C401557423982DDEC /* Pods-IsmartvPlayer-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F35F9269FA9C5BD3FCAEC12A11E2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860FD28776117C83F89951DC3F67D90B /* AES+Foundation.swift in Sources */,
+				40C082B18076A24375622A1957448A87 /* AES.swift in Sources */,
+				1B9D7412E49CFDD1CEEB50C00D23F32E /* Array+Extension.swift in Sources */,
+				9E3271279026C3CCC5DC0EBB430CA6D7 /* Authenticator.swift in Sources */,
+				F6AF33C4FCD9F1D4F979FFC935E56921 /* BatchedCollection.swift in Sources */,
+				656A6289582E554537ED419A60BFF4A9 /* Bit.swift in Sources */,
+				45F170A736E1CA34D5066A84A90C30B2 /* BlockCipher.swift in Sources */,
+				71648F328FEBCE785B620D5BEB551D62 /* BlockMode.swift in Sources */,
+				106526403D7367B6A4F94EBE32E4E4AF /* BlockModeOptions.swift in Sources */,
+				8E352C414DA910D82D5F76C40AB39B9B /* BlockModeWorker.swift in Sources */,
+				4F656AAED181E78C287FA5DCA68AFA9B /* Blowfish+Foundation.swift in Sources */,
+				AC2CFD20E2921CDEC49CDCE84D5CF831 /* Blowfish.swift in Sources */,
+				EFDE453F9C16CF16D1C2D63F3A76A0A2 /* CBC.swift in Sources */,
+				56FCD8E2F7FAB9F83B7A8417208EECD8 /* CFB.swift in Sources */,
+				20B42EFF78D49D55CE67458F852F3067 /* ChaCha20+Foundation.swift in Sources */,
+				D8AD5D0AD8DAC7505D464ADA0565809B /* ChaCha20.swift in Sources */,
+				7AD65022E43713569709834981BFDA7A /* Checksum.swift in Sources */,
+				D457454E29FB723CD2743D081A4FB68E /* Cipher.swift in Sources */,
+				D129F339808A6D4E20D83BB066141FAF /* Collection+Extension.swift in Sources */,
+				5E4965103C3132BAC775E322EBA555FD /* Cryptors.swift in Sources */,
+				7696FC3BF8CDF62D426C5417190066E7 /* CryptoSwift-dummy.m in Sources */,
+				37AB4C5DF3F3CB2D841BC7531D8648C2 /* CSArrayType+Extensions.swift in Sources */,
+				C7D9C8F3927BC62F5DC058A1B5B92E75 /* CSArrayType+Foundation.swift in Sources */,
+				A5BE6D486BFD2909DE6EB3C6ACDA3B54 /* CTR.swift in Sources */,
+				1E99C0DC016663DE25D5BF860E665892 /* Data+Extension.swift in Sources */,
+				F6BC4650B1D355BA709443042ECEDE1C /* Digest.swift in Sources */,
+				1811F4666833B95F3A3A7A41553FE860 /* DigestType.swift in Sources */,
+				F0FB1C7C6C4F4028236FDF02BB7DBE56 /* ECB.swift in Sources */,
+				7A16649DC486765D9FEA898424704F6B /* Generics.swift in Sources */,
+				2EC465B50B8D924E3E7875A939816EF8 /* HMAC+Foundation.swift in Sources */,
+				93BA58EEBAF3599949BBE0EEF4A965CA /* HMAC.swift in Sources */,
+				7E7A22DFC5711E73CC978DE27312BDF6 /* Int+Extension.swift in Sources */,
+				DF1740958185D07FA6DE790EBDD52DC9 /* MD5.swift in Sources */,
+				43522EAFE5A8F10A1BAF69FB82EAA63D /* NoPadding.swift in Sources */,
+				5D6821DE0DC076C4863C4B1FCA7C4FDF /* OFB.swift in Sources */,
+				F306754C43971017E3B6200029508299 /* Operators.swift in Sources */,
+				5E7CF0574ED8D4D3EA07898BC05B9B44 /* Padding.swift in Sources */,
+				AE09CD7C1B9FA65F898F6594BD58D631 /* PBKDF1.swift in Sources */,
+				EF7A6708E7738B1AABB8BA481F1F9121 /* PBKDF2.swift in Sources */,
+				4C76DCE3AE5796C3B625CF264E59E28F /* PCBC.swift in Sources */,
+				6073C82F34939E719D20C6867E4E8C05 /* PKCS5.swift in Sources */,
+				93AE10259A2E5D0D3FC59DE0A6607249 /* PKCS7.swift in Sources */,
+				86916D6AE2D3827309C0A577FB7165E1 /* PKCS7Padding.swift in Sources */,
+				F348833F10BE02A20050E57943B1B2AD /* Poly1305.swift in Sources */,
+				3D12487E9EB47DC1D18C93780CCDE557 /* Rabbit+Foundation.swift in Sources */,
+				3C072678894A386F5608B869DA6305AA /* Rabbit.swift in Sources */,
+				39E845C25F08A238FFA942330A6F3B21 /* RandomAccessBlockModeWorker.swift in Sources */,
+				E194E816DF8DA6B20CC5961973FBA3E5 /* RandomAccessCryptor.swift in Sources */,
+				E2EB7183921492B9ADA301B037A54A78 /* RandomBytesSequence.swift in Sources */,
+				64EDCD9A4ADC3B7B9E68FB8945A5BB40 /* SecureBytes.swift in Sources */,
+				B163356174AC3904DC6A9E235FFF65AB /* SHA1.swift in Sources */,
+				C2B49B97085F299A8454F0D1768EADC2 /* SHA2.swift in Sources */,
+				DBF91A96B8205236B3CD925D4E876BC9 /* SHA3.swift in Sources */,
+				AC9B8C11009653AE3C6A04661B83FAF6 /* String+Extension.swift in Sources */,
+				E5DD6F5F4D08EE86AA06CF05DCC01FF1 /* String+FoundationExtension.swift in Sources */,
+				690A0944290908B2FBBCEC3F152F1908 /* UInt16+Extension.swift in Sources */,
+				4ED037577FE82DA38F06553ABE799D90 /* UInt32+Extension.swift in Sources */,
+				A7679067C5707DAD74218254B1EA7C0D /* UInt64+Extension.swift in Sources */,
+				EE6B5702C24E996BC8C2B4A1E709351D /* UInt8+Extension.swift in Sources */,
+				18954FAFCF37859CB1429C94A1F7F910 /* Updatable.swift in Sources */,
+				E6AFA60AD32A7C7A74B2317028B45B40 /* Utils+Foundation.swift in Sources */,
+				15E7B0554118825201203078177E609F /* Utils.swift in Sources */,
+				9CE20232510EE59FE400A71DF8C3B30F /* ZeroPadding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABD73BBC1EB672ED21416BBD2B53394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IsmartvPlayer-swift";
+			target = 65DE30AFEFDA5C1B8F61E255A03FD579 /* Pods-IsmartvPlayer-swift */;
+			targetProxy = B7F97600D0AA8A6796DDABCA54B97DFA /* PBXContainerItemProxy */;
+		};
+		50EADC7C421A745EA82EF9F492EE04E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IsmartvPlayer-swift";
+			target = 65DE30AFEFDA5C1B8F61E255A03FD579 /* Pods-IsmartvPlayer-swift */;
+			targetProxy = ED160A4D2057DBD906B949672154E44C /* PBXContainerItemProxy */;
+		};
+		EB445D0D6754B4BCA2D1A0218ABE3DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 6BB1C1403B2419F911818DA8413FDA07 /* CryptoSwift */;
+			targetProxy = C52874FA8BEBF3850AFB044BF59361F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		144D7E51AB827BDF52B5F9A7BD686289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40642700584A629264830D2D5DC0033F /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B0DFA2ED1093350519760ACF8825F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707E21187AD684F74C663A5E3D395F4B /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftTests/Pods-IsmartvPlayer-swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36A96907642C349D502B930883C9232E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91981023560100FBDD47E79185745948 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftUITests/Pods-IsmartvPlayer-swiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42615B50B87D4A59B2235E01F5AB12D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100645CF96DC4059A2E6036246647CE1 /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftUITests/Pods-IsmartvPlayer-swiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D3B4BB1028778DF91B41BFAE129C14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA66229F5E316027F96075F775996FE4 /* Pods-IsmartvPlayer-swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		811ABD49AEA4C75D6FC417AF61FC8CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF163CDE60D13A8E4145DEAC47253ECD /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swiftTests/Pods-IsmartvPlayer-swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827C69BA530582EE5130C51AFB644C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCBC54A615BC52013B9F5AD14A5459D /* Pods-IsmartvPlayer-swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IsmartvPlayer-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC144B1423DF4BE6A3B2E40B37F08D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40642700584A629264830D2D5DC0033F /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2D4DEFD9716C954D1E8ADC5D5601A5 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144D7E51AB827BDF52B5F9A7BD686289 /* Debug */,
+				CC144B1423DF4BE6A3B2E40B37F08D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD5EA44E844DFC0BCD8CD16196B029D /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A96907642C349D502B930883C9232E /* Debug */,
+				42615B50B87D4A59B2235E01F5AB12D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23679DCB74D022264BCA196C14D5E36 /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0DFA2ED1093350519760ACF8825F75 /* Debug */,
+				811ABD49AEA4C75D6FC417AF61FC8CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F902DD0101F2A579BD85C3D7006C9EFF /* Build configuration list for PBXNativeTarget "Pods-IsmartvPlayer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3B4BB1028778DF91B41BFAE129C14E /* Debug */,
+				827C69BA530582EE5130C51AFB644C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

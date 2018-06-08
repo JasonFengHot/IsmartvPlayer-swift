@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499A7B34EBF24967E5E06E69 /* Pods_IsmartvPlayer_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A717464F7D7B19D292D343 /* Pods_IsmartvPlayer_swiftUITests.framework */; };
+		505946AF1DFE4989ECD0C989 /* Pods_IsmartvPlayer_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A35D98AC7E609F6A1055BD0 /* Pods_IsmartvPlayer_swiftTests.framework */; };
+		8010F95521B0EBA47E36D0CA /* Pods_IsmartvPlayer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4A9312562D05476C54E266 /* Pods_IsmartvPlayer_swift.framework */; };
 		B819F33975C81D5A4BF64BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B819FEB10B43A50217DF1AD4 /* Assets.xcassets */; };
 		B819F5A31EDCA6A8F4A84F28 /* IsmartvPlayer_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B819FBDF13C9C8D10DE50323 /* IsmartvPlayer_swift.xcdatamodeld */; };
 		B819F67E595A9BE0616E32C7 /* IsmartvPlayer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819FE8CA44650EDA81D6E5F /* IsmartvPlayer_swiftTests.swift */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308BA193B012799F69986B39 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swiftUITests/Pods-IsmartvPlayer-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3218B966ADDF06F7C7EA5522 /* Pods-IsmartvPlayer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3A35D98AC7E609F6A1055BD0 /* Pods_IsmartvPlayer_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IsmartvPlayer_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F95CD2641A06F32915258F /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swiftTests/Pods-IsmartvPlayer-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98A717464F7D7B19D292D343 /* Pods_IsmartvPlayer_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IsmartvPlayer_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B819F0EFE50D50E0E59F8CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B819F233D94BB74151E32C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B819F25CEEFD37376243E458 /* IsmartvPlayer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IsmartvPlayer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +57,10 @@
 		B819FE8CA44650EDA81D6E5F /* IsmartvPlayer_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmartvPlayer_swiftTests.swift; sourceTree = "<group>"; };
 		B819FEB10B43A50217DF1AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B819FF16F283E957F85F34A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B984BB312026DD2A9D723F9D /* Pods-IsmartvPlayer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		CE39877F7809F1ADB8878B1A /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swiftUITests/Pods-IsmartvPlayer-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF4A9312562D05476C54E266 /* Pods_IsmartvPlayer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IsmartvPlayer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43FDE099F9BD0E19F5DD07A /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsmartvPlayer-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IsmartvPlayer-swiftTests/Pods-IsmartvPlayer-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8010F95521B0EBA47E36D0CA /* Pods_IsmartvPlayer_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499A7B34EBF24967E5E06E69 /* Pods_IsmartvPlayer_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505946AF1DFE4989ECD0C989 /* Pods_IsmartvPlayer_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34643065D00213C9F1F7CEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A9312562D05476C54E266 /* Pods_IsmartvPlayer_swift.framework */,
+				3A35D98AC7E609F6A1055BD0 /* Pods_IsmartvPlayer_swiftTests.framework */,
+				98A717464F7D7B19D292D343 /* Pods_IsmartvPlayer_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD0281EE78716B29528019D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3218B966ADDF06F7C7EA5522 /* Pods-IsmartvPlayer-swift.debug.xcconfig */,
+				B984BB312026DD2A9D723F9D /* Pods-IsmartvPlayer-swift.release.xcconfig */,
+				83F95CD2641A06F32915258F /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */,
+				E43FDE099F9BD0E19F5DD07A /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */,
+				308BA193B012799F69986B39 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */,
+				CE39877F7809F1ADB8878B1A /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B819F20EB8C34CA3DD68E3AF /* IsmartvPlayer-swiftUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,8 @@
 				B819FB3A899264E143CF5640 /* IsmartvPlayer-swift */,
 				B819F289C67304764DF1E481 /* IsmartvPlayer-swiftTests */,
 				B819F20EB8C34CA3DD68E3AF /* IsmartvPlayer-swiftUITests */,
+				5AD0281EE78716B29528019D /* Pods */,
+				34643065D00213C9F1F7CEB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B819F6C084142B53CFAC9ADC /* Build configuration list for PBXNativeTarget "IsmartvPlayer-swiftTests" */;
 			buildPhases = (
+				6F02DE78FDBCCFE559299D33 /* [CP] Check Pods Manifest.lock */,
 				B819FF57D6A743298B67F12C /* Sources */,
 				B819FDF6C2E3DFF26EDDD1F1 /* Frameworks */,
 				B819FB30DE0167A2B8988650 /* Resources */,
@@ -153,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B819F6A6CCBA6010B621BE44 /* Build configuration list for PBXNativeTarget "IsmartvPlayer-swiftUITests" */;
 			buildPhases = (
+				DB6ADB7743764F8353B7FF77 /* [CP] Check Pods Manifest.lock */,
 				B819F7E1F8962A8F029E3453 /* Sources */,
 				B819FB0CE63C3394692253B0 /* Frameworks */,
 				B819FA90D0A1BFE9781F6200 /* Resources */,
@@ -171,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B819FCF7EE340B1AC08BA619 /* Build configuration list for PBXNativeTarget "IsmartvPlayer-swift" */;
 			buildPhases = (
+				F12190F3C7A3AA780DB829FB /* [CP] Check Pods Manifest.lock */,
 				B819F51B1004B416AA56C6F0 /* Sources */,
 				B819F5D58F247E60DCBB94FF /* Frameworks */,
 				B819F15E7D46D4190BEBC10A /* Resources */,
+				395D4171FF722DDB75424055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +234,12 @@
 		B819FA8B5ACE37CE7D3454A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "___HUIBIN___";
+				ORGANIZATIONNAME = ___HUIBIN___;
+				TargetAttributes = {
+					B819FCDCD730E6D29C45F60F = {
+						DevelopmentTeam = 2M6X5ZFS5W;
+					};
+				};
 			};
 			buildConfigurationList = B819F4E3FEC6ABF0F8386466 /* Build configuration list for PBXProject "IsmartvPlayer-swift" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -237,6 +286,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		395D4171FF722DDB75424055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IsmartvPlayer-swift/Pods-IsmartvPlayer-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F02DE78FDBCCFE559299D33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IsmartvPlayer-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6ADB7743764F8353B7FF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IsmartvPlayer-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12190F3C7A3AA780DB829FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IsmartvPlayer-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B819F51B1004B416AA56C6F0 /* Sources */ = {
@@ -302,6 +426,7 @@
 /* Begin XCBuildConfiguration section */
 		B819F3A3A5CF336DFDBEA88B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308BA193B012799F69986B39 /* Pods-IsmartvPlayer-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "IsmartvPlayer-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -315,8 +440,10 @@
 		};
 		B819F444E1B86D8D6F0A645F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3218B966ADDF06F7C7EA5522 /* Pods-IsmartvPlayer-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M6X5ZFS5W;
 				INFOPLIST_FILE = "IsmartvPlayer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.huibin.IsmartvPlayer-swift";
@@ -328,6 +455,7 @@
 		};
 		B819F5AA2BFE4017948F924F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE39877F7809F1ADB8878B1A /* Pods-IsmartvPlayer-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "IsmartvPlayer-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -373,6 +501,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -398,6 +527,7 @@
 		};
 		B819FBB09EAD87ED628C8060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43FDE099F9BD0E19F5DD07A /* Pods-IsmartvPlayer-swiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IsmartvPlayer-swift.app/IsmartvPlayer-swift";
 				INFOPLIST_FILE = "IsmartvPlayer-swiftTests/Info.plist";
@@ -412,8 +542,10 @@
 		};
 		B819FBDFE8621D36BBD171CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B984BB312026DD2A9D723F9D /* Pods-IsmartvPlayer-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M6X5ZFS5W;
 				INFOPLIST_FILE = "IsmartvPlayer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.huibin.IsmartvPlayer-swift";
@@ -457,6 +589,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -475,6 +608,7 @@
 		};
 		B819FFC7EC76C52258CEEF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F95CD2641A06F32915258F /* Pods-IsmartvPlayer-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IsmartvPlayer-swift.app/IsmartvPlayer-swift";
 				INFOPLIST_FILE = "IsmartvPlayer-swiftTests/Info.plist";
@@ -506,6 +640,7 @@
 				B819F5AA2BFE4017948F924F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B819F6C084142B53CFAC9ADC /* Build configuration list for PBXNativeTarget "IsmartvPlayer-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +649,7 @@
 				B819FBB09EAD87ED628C8060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B819FCF7EE340B1AC08BA619 /* Build configuration list for PBXNativeTarget "IsmartvPlayer-swift" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +658,7 @@
 				B819FBDFE8621D36BBD171CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
