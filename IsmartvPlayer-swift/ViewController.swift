@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CryptoSwift
 
 
 class ViewController: UIViewController {
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
 //        makeGetCall()
 
         trustGetLicence()
+    
     }
 
 
@@ -118,10 +120,13 @@ class ViewController: UIViewController {
 
 
     func trustGetLicence() -> Void {
-        let fingerprint: String = "fingerprint"
-        let sn: String = "sn"
-        let manufacture: String = "manufacture"
-        let code: String = "code"
+        print(UIDevice.current.identifierForVendor!.uuidString)
+        
+        let sn: String = UIDevice.current.identifierForVendor!.uuidString.md5()
+        let fingerprint: String = sn.md5()
+
+        let manufacture: String = "sharp"
+        let code: String = "1"
 
         let api = SKY_HOST + "/trust/get_licence/"
 
@@ -137,7 +142,7 @@ class ViewController: UIViewController {
 
         let body = getPostString(params: parameters)
 
-//        urlRequest.httpBody = body.data(using: .utf8)
+        urlRequest.httpBody = body.data(using: .utf8)
 
         let session = URLSession.shared
 
